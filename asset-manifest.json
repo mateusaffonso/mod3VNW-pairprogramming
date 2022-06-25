@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mod3VNW-pairprogramming/static/css/main.9d80de5c.css",
+    "main.js": "/mod3VNW-pairprogramming/static/js/main.78b036af.js",
+    "static/js/787.e73235cd.chunk.js": "/mod3VNW-pairprogramming/static/js/787.e73235cd.chunk.js",
+    "static/media/background.png": "/mod3VNW-pairprogramming/static/media/background.8799441e2226203df096.png",
+    "index.html": "/mod3VNW-pairprogramming/index.html",
+    "main.9d80de5c.css.map": "/mod3VNW-pairprogramming/static/css/main.9d80de5c.css.map",
+    "main.78b036af.js.map": "/mod3VNW-pairprogramming/static/js/main.78b036af.js.map",
+    "787.e73235cd.chunk.js.map": "/mod3VNW-pairprogramming/static/js/787.e73235cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d80de5c.css",
+    "static/js/main.78b036af.js"
+  ]
+}
