@@ -20,6 +20,9 @@ header {
   background: url('./images/background.png') center no-repeat;
   background-size: cover;
   color: var(--color-text);
+  /* margin-top: 2rem ;
+  box-sizing: border-box;
+  margin-inline: auto 0; */
 }
 
 .headerSection {
@@ -85,21 +88,5 @@ h1 {
   margin-top: 23rem;
   letter-spacing: 1.575rem;
   
-}
-
-main {
-  background-color: #f2f4f1;
-  margin-top: 2rem;
-}
-
-main h2 {
-  text-align: center;
-  color: var(--color-text);
-  font-size: 4rem;
-}
-
-hr {
-  margin-inline: auto;
-  width: 5rem;
 }
 
