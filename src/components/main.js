@@ -176,7 +176,6 @@ export default function Main() {
 
   return (
     <>
-      {/* <GlobalStyled /> */}
       <MainContainer>
         <LastestRecipesContainer>
           <div className="headlineFoodSection">
