@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/mod3VNW-pairprogramming/static/css/main.9d80de5c.css",
-    "main.js": "/mod3VNW-pairprogramming/static/js/main.78b036af.js",
+    "main.css": "/mod3VNW-pairprogramming/static/css/main.b04c53ae.css",
+    "main.js": "/mod3VNW-pairprogramming/static/js/main.360b2180.js",
     "static/js/787.e73235cd.chunk.js": "/mod3VNW-pairprogramming/static/js/787.e73235cd.chunk.js",
     "static/media/background.png": "/mod3VNW-pairprogramming/static/media/background.8799441e2226203df096.png",
+    "static/media/pexels-karolina-grabowska-4199094@2x.png": "/mod3VNW-pairprogramming/static/media/pexels-karolina-grabowska-4199094@2x.eb47d1d1d8e65efb8096.png",
+    "static/media/capuccino.png": "/mod3VNW-pairprogramming/static/media/capuccino.25f1610ad46354c55559.png",
+    "static/media/SmallCake.png": "/mod3VNW-pairprogramming/static/media/SmallCake.6cf44c8d7f5868bef2f1.png",
+    "static/media/pizza.png": "/mod3VNW-pairprogramming/static/media/pizza.ef2cf7030adf6676511e.png",
     "index.html": "/mod3VNW-pairprogramming/index.html",
-    "main.9d80de5c.css.map": "/mod3VNW-pairprogramming/static/css/main.9d80de5c.css.map",
-    "main.78b036af.js.map": "/mod3VNW-pairprogramming/static/js/main.78b036af.js.map",
+    "main.b04c53ae.css.map": "/mod3VNW-pairprogramming/static/css/main.b04c53ae.css.map",
+    "main.360b2180.js.map": "/mod3VNW-pairprogramming/static/js/main.360b2180.js.map",
     "787.e73235cd.chunk.js.map": "/mod3VNW-pairprogramming/static/js/787.e73235cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d80de5c.css",
-    "static/js/main.78b036af.js"
+    "static/css/main.b04c53ae.css",
+    "static/js/main.360b2180.js"
   ]
 }
