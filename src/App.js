@@ -15,8 +15,7 @@ const GlobalStyled = createGlobalStyle`
   :root {
   --color-text: #373737;
   font-size: 62.5%;
-}
-`;
+}`;
 
 export default function App() {
   return (

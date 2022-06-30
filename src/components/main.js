@@ -14,12 +14,37 @@ flex-direction: column;
 align-items: center;
 margin-top: 2rem;
 
-background-color: #ccc;
+font-size: 62.5%;
+
+background-color: #F2F4F1;
+
+
+  .headlineFoodSection{
+      /* border: 1px solid;  */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:2rem; 
+
+  }
+
+  hr {
+      width: 5rem;
+      color: var(--color-text);
+      color: black;
+      border: 0.1rem solid;
+      border-radius: 25% ;
+  }
+
+  .subscribeSection {
+    background-color: #DFE4DE;
+
+  }
 
 `
 
 const LastestRecipesContainer = styled.div`
-border: 1px solid;
+/* border: 1px solid; */
 width: 93%;
 height: 100%;
 margin-block:12rem;
@@ -28,7 +53,6 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 
-/* max-height: 500rem; */
 
 margin-bottom: 25rem;
 
@@ -39,33 +63,14 @@ h2 {
   font-size: 4rem;
 }
 
-hr {
-  width: 5rem;
-  /* color: var(--color-text); */
-  color: black;
-  border: 0.1rem solid;
-  border-radius: 25% ;
+div {
+  margin-bottom: 6.5rem;
 }
 
-
-
-.headlineFoodSection{
-      /* border: 1px solid; */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap:2rem;
-
-    }
-
-    div {
-      margin-bottom: 6.5rem;
-    }
-
-
 `
+
 const Container = styled.div`
-  border: 1px solid;
+  /* border: 1px solid; */
   /* width: 100%; */
   display: flex;
   justify-content: center;
@@ -86,7 +91,7 @@ const Container = styled.div`
     
 
     figure{
-      border: solid 1px;
+      /* border: solid 1px; */
       width: 100%;
 
       img {
@@ -120,51 +125,85 @@ const Container = styled.div`
 
 const PartAbout = styled.div`
   width: 100%;
+  height: 60rem;
   display: flex;
   background-color: #ffffff;
-  border: 2px solid;
+  /* border: 2px solid; */
   color: var(--color-text);
 `;
+
 const SpoonImg = styled.div`
   width: 50%;
-  border: 1px solid;
+  height: 100%;
+  /* border: 1px solid; */
 `;
 const ImgAbout = styled.img`
   width: 100%;
+  height: 100%;
 `;
 const TitleSob = styled.h2`
   font-size: 4rem;
 `;
 const Text = styled.p`
-  width: 48rem;
-  height: 25em;
+  /* border: 2px solid; */
+  width: 48.4rem;
   font-size: 2rem;
+  text-align: left;
 `;
 const Sobre = styled.div`
+  /* border: 3px solid red; */
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 5rem;
+
 `;
+
+
 const Cadastro = styled.div`
   width: 100%;
+  height: 50rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.7rem;
+
+  color: var(--color-text);
+
+  h2 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    
+  }
+
+  p {
+    font-size: 3rem;
+  }
+  
 `;
 const Submit = styled.button`
-  width: 10rem;
-  border: 3px solid;
-  font: normal normal 600 24px/32px Hurme Geometric Sans 1;
-  font-size: 1rem;
-  color: #373737;
+  width: 16rem;
+  border: 6px solid;
+  font-size: 2.4rem;
+  padding: 1rem;
+  color: var(--color-text);
+
+  letter-spacing: 2px;
+
+  
 `;
 const Email = styled.input`
-  width: 35rem;
-  height: 5rem;
+  width: 40rem;
+  height: 6rem;
+  padding: 2rem;
+
+  background-color: #EFF1EE;
+  border: none;
+  
 `;
 export default function Main() {
 
@@ -206,7 +245,12 @@ export default function Main() {
             <ImgAbout src={colher} alt="imagem de uma colher contendo sal grosso " />
           </SpoonImg>
           <Sobre>
-            <TitleSob>ABOUT</TitleSob>
+            <div className="headlineFoodSection">
+
+              <TitleSob>ABOUT</TitleSob>
+              <hr />
+
+            </div>
             <Text>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
               tincidunt, tortor nec rhoncus dictum, lorem massa tempus sem, eu
@@ -222,7 +266,7 @@ export default function Main() {
           </Sobre>
         </PartAbout>
 
-        <Cadastro>
+        <Cadastro className="subscribeSection">
           <h2>SUBSCRIBE</h2>
           <p>Sign up for newsletter</p>
           <Email type="email" placeholder="Your Email" />
